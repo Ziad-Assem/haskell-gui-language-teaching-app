@@ -103,7 +103,7 @@ main = do
   mainMenuDate <- labelNew(Just ("Date: " ++ (show day) ++ " / " ++ (show (month+1)) ++ " / "++ (show year)))
   tableAttachDefaults tableMainMenu mainMenuDate 5 9 15 16
 
-  mainMenuDevs <- labelNew (Just "Developed by: Ziad Assem & Youssel El Habrouk")
+  mainMenuDevs <- labelNew (Just "Developed by: Name")
   tableAttachDefaults tableMainMenu mainMenuDevs 1 5 15 16
 
   mainMenuWelcome <- labelNew (Just "Welcome to AASTMT Language Hub")
